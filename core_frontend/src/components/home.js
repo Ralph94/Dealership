@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Car from './car_lot.jpg'
-import Header from './logo.png'
 import Paperwork from './doc_sign.png'
-import Car_Galleryimg1 from './jeep.jpg'
-import Car_Galleryimg2 from './bmw.jpg'
+import Car_Galleryimg1 from './jeep1.jpg'
+import Car_Galleryimg2 from './bmw1.jpg'
 import Car_Galleryimg3 from './toyota.jpg'
-import Car_Galleryimg4 from './truck.jpg'
-import Car_Galleryimg5 from './honda.jpg'
-
+import Car_Galleryimg4 from './truck1.jpg'
+import Car_Galleryimg5 from './honda1.jpg'
+import Car_Galleryimg6 from './audi2.jpg'
 import ImageGallery from 'react-image-gallery';
 
 const images = [
@@ -32,6 +32,13 @@ const images = [
   {
     original: Car_Galleryimg5,
     thumbnail: Car_Galleryimg5
+
+  },
+
+  {
+    original: Car_Galleryimg6,
+    thumbnail: Car_Galleryimg6
+
   },
 ];
 function Home() {
@@ -39,16 +46,39 @@ function Home() {
 
 
       <div className="home">
-      <img src={Header} className="logo.png"/>
-      <h1>Welcome to Exclusive Auto Sales</h1><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"/>
-      <img src={Paperwork}className="doc_sign.png"/>
-      <button>Click here!</button>
-
-
-      <h2>Get your dream car today
-      we are here to help you!</h2>
-      <ImageGallery items={images} />
+      <div className="intro-container">
+      <div className="text-container">
+        <h1>Welcome to</h1>
+        <h2>Exclusive Auto Sales!</h2>
+        </div>
       </div>
+
+      <div className="spacer" />
+
+      <div className="row_2">
+       <div className="img-container">
+        <img src ={Paperwork}className="doc_sign-img"/>
+        <button className="custom-button">Click here!</button>
+      </div>
+    </div>
+
+    <div className="spacer"/>
+
+       <div className="row">
+       <h3 className="main">Get your dream car today!</h3>
+       <h4 className="sub">We are here to help you! </h4>
+       <div className="img-gallery">
+       <ImageGallery items={images} />
+        </div>
+
+      </div>
+
+      <div className="spacer"/>
+      </div>
+
+
+
+
 
 
 
