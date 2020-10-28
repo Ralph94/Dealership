@@ -9,6 +9,7 @@ import Car from './components/car';
 import Contact from './components/contact';
 import Search from './components/search';
 import Information from './components/information';
+import Location from './components/information';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './image-gallery.css';
 
@@ -34,6 +35,10 @@ function App() {
 
               <Route path="/search">
                 {create_page(<Search />)}
+                </Route>
+
+              <Route path="/location">
+                {create_page(<Location />)}
                 </Route>
 
               <Route path="/information">

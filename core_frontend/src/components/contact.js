@@ -5,10 +5,11 @@ import Cimg from './cimg.jpg'
 function Contact() {
   return (
     <div className="container">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"/>
     <div className="topnav">
 
     <div className="row2 col4 cspan6 cimg">
-         <img src={Cimg} className="cimg"/>
+
     </div>
 
     <h1>Contact us!</h1>
