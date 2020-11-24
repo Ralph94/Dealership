@@ -104,6 +104,7 @@ import VEI3 from './VEI3.jpg';
 import CEI from './CEI.jpg';
 import CEI2 from './CEI2.jpg';
 import CEI3 from './CEI3.jpg';
+import CarBG from './carbg.jpg'
 
 
 
@@ -790,7 +791,7 @@ function handleOnClick (e) {
   return (
       <div className="car">
       {(showPopUp === true) ? popUp : <div />}
-      <h1>List of cars please take a good look around!!</h1>
+      <h1>Inventory!</h1>
       <button className="custom-button" id="truck" onClick={(e) => handleOnClick(e)}>Trucks</button>
       {(truckDropDown === true)? truckMenu() : <div/> }
       <button className="custom-button" id="jeep" onClick={(e) => handleOnClick(e)}>Jeeps</button>

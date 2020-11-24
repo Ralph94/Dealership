@@ -2,6 +2,7 @@
 .App {
   text-align: center;
   background-color: white;
+
 }
 
 
@@ -107,14 +108,15 @@ border-radius: solid;
 }
 
 
-div.information {
+.information {
+display: grid;
 background: linear-gradient(90deg, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 64%, rgba(70,70,70,.7) 100%), url("info.jpg") no-repeat;
+background-size: cover;
 background-position: center;
-background-size: 100%;
-position: fixed;
-width: 100vw;
-position: static;
+width: 100%;
+height: 100%;
 background-attachment: fixed;
+grid-template-columns: auto(12,1fr)
 
 /*
 display: inline-block;
@@ -134,18 +136,6 @@ font-family: 'PT Serif', serif;
 */
 }
 
-div.information2 {
-background: linear-gradient(90deg, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 64%, rgba(70,70,70,.7) 100%), url("info.jpg") no-repeat;
-background-position: center;
-background-size: 100%;
-position: fixed;
-width: 100vw;
-height: 80vw;
-position: static;
-background-attachment: fixed;
-font-family: 'PT Serif', serif;
-
-}
 
 
 .information img.pimg {
@@ -155,7 +145,7 @@ margin-bottom: 20px;
 margin-left: auto;
 margin-right: auto;
 width: calc(30%);
-height: calc(30%);
+height: calc(15%);
 background: transparent;
 background: linear-gradient(90deg, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 64%, rgba(70,70,70,.7) 100%);
 color: black;
@@ -165,14 +155,29 @@ border-style: solid;
 border-size: 2px;
 }
 
+
 .information img.ad2 {
 display: inline-block;
-margin-top: 0px;
+margin-top: 10px;
 margin-bottom: 0px;
-margin-left: auto;
+width: 55%;
+height: 35%;
+background: transparent;
+color: black;
+border-radius: 10px;
+border-color: bold;
+border-style: solid;
+border-size: 2px;
+}
+
+.information img.ad3 {
+display: inline-block;
+margin-top: 30px;
+margin-bottom: 0px;
+margin-left: 950px;
 margin-right: auto;
-width: 55vw;
-height: 35vw;
+width: 20vw;
+height: 20vw;
 background: transparent;
 color: black;
 border-radius: 10px;
@@ -203,8 +208,8 @@ a2
 {
 display: inline-block;
 position: absolute;
-top: 50%;
-left: 50%;
+top: 60%;
+left: 42%;
 transform: translate(-50%,-50%);
 width: 160px;
 height: 50px;
@@ -249,8 +254,8 @@ a3
 {
 display: inline-block;
 position: absolute;
-top: 260%;
-left: 50%;
+top: 51%;
+left: 100%;
 transform: translate(-50%,-50%);
 width: 160px;
 height: 50px;
@@ -291,14 +296,6 @@ transform: translateY(0) rotateX(0deg);
 }
 
 
-.information h1 {
-margin-top: 0px;
-margin-left: -1030px;
-margin-right: 0px;
-margin-bottom: -20px;
-font-family: 'Fira Sans Condensed', sans-serif;
-font-size: 30px;
-}
 
 div.h1container {
 margin-top: 0px;
@@ -309,8 +306,17 @@ font-family: 'Fira Sans Condensed', sans-serif;
 
 }
 
+div.information h1 {
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-size: 30px;
+}
 
-.information h2 {
+
+div.information h2 {
 display: inline-block;
 background-color: white;
 color: black;
@@ -319,9 +325,29 @@ border-color: bold;
 border-style: solid;
 border-size: 2px;
 margin-top: 10px;
-margin-left: 0px;
+margin-left: 805px;
 margin-right: 0px;
-margin-bottom: 150px;
+margin-bottom: 180px;
+width: 8em;
+position: static;
+text-align: top;
+width: calc(40%);
+length: calc(30%);
+font-family: 'PT Serif', serif;
+}
+
+.information h3 {
+display: inline-block;
+background-color: linear-gradient(90deg, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 64%, rgba(70,70,70,.7) 100%);
+color: black;
+border-radius: 10px;
+border-color: bold;
+border-style: transparent;
+border-size: 2px;
+margin-top: 330px;
+margin-left: 950px;
+margin-right: 0px;
+margin-bottom: auto;
 width: 8em;
 position: static;
 text-align: top;
@@ -330,25 +356,6 @@ length: calc(20%);
 font-family: 'PT Serif', serif;
 }
 
-.information h3 {
-display: inline-block;
-background-color: transparent;
-color: white;
-border-radius: 10px;
-border-color: bold;
-border-size: 2px;
-margin-top: 130px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: auto;
-width: 8em;
-position: static;
-text-align: center;
-width: calc(20%);
-length: calc(20%);
-font-family: 'PT Serif', serif;
-font-size: 25px;
-}
 
 .information p {
 display: inline-block;
@@ -360,29 +367,12 @@ border-style: transparent;
 border-size: 2px;
 text-align: center;
 margin-top: 0px;
-margin-left: 0px;
+margin-left: -110px;
 margin-right: 0px;
 margin-bottom: 50px;
 font-family: 'Fira Sans Condensed', sans-serif;
 position: static;
-/*
-display: grid;
-background-color: white;
-color: black;
-border-radius: 10px;
-border-color: bold;
-border-style: solid;
-border-size: 5px;
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-position: static;
-text-align: center;
-font-family: 'Fira Sans Condensed', sans-serif;
-letter-spacing: 2px;
-}
-*/
+
 }
 
 .information p2 {
@@ -393,7 +383,7 @@ border-color: bold;
 border-style: transparent;
 border-size: 2px;
 text-align: center;
-margin-top: 20px;
+margin-top: 60px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 0px;
@@ -428,10 +418,10 @@ font-family:'Fira Sans Condensed', sans-serif;
 
 input#information {
 display: grid;
-margin-top: 10px;
-margin-left: auto;
+margin-top: 730px;
+margin-left: 850px;
 margin-right: auto;
-margin-bottom: 10px;
+margin-bottom: 0px;
 font-family: 'Fira Sans Condensed', sans-serif;
 font-size: 15px;
 width: calc(50%);
@@ -514,8 +504,6 @@ width: calc(100% - 9px);
 height: calc(100% - 80px);
 
 
-
-
 }
 
 .about .AU {
@@ -561,11 +549,12 @@ padding: 0px
 
 .car {
   display: inline-block;
-  background: linear-gradient(90deg, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 64%, rgba(70,70,70,.7) 100%);
+  background: linear-gradient(90deg, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 0%, rgba(14,14,14,.7) 64%, rgba(70,70,70,.7) 100%), url("carbg.jpg") no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: 100%;
   width: 100%;
+  height: 50vw;
   grid-template-columns: repeat(12, calc(100vw / 12));
   grid-template-rows: auto;
 
@@ -1226,6 +1215,31 @@ button {
 
 }
 
+.header .menu h4 {
+ display: inline-block;
+ color: white;
+ font-family: 'Sora', sans-serif;
+ margin-top: 7%;
+ margin-bottom: 10px;
+ margin-left: 10px;
+ margin-right: 15px;
+
+ padding-top: 10px;
+ padding-bottom: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+
+ border-radius: 10px;
+ border-color: #494be1;
+ border-style: solid;
+ border-width: 2px;
+ width: 10vw;
+ height: 21px;
+ font-size: large;
+
+
+ }
+
 .header .icon-vertical {
 display: grid;
 grid-template-rows: 1fr 1fr 1fr;
@@ -1239,6 +1253,7 @@ grid-template-rows: 1fr 1fr 1fr;
   padding: 10px;
 
 }
+
 
 .page {
   margin-top: 125px;
