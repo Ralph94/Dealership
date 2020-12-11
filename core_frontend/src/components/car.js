@@ -104,7 +104,18 @@ import VEI3 from './VEI3.jpg';
 import CEI from './CEI.jpg';
 import CEI2 from './CEI2.jpg';
 import CEI3 from './CEI3.jpg';
-import CarBG from './carbg.jpg'
+import FFI from './FFI.jpg';
+import FFI2 from './FFI2.jpg';
+import FFI3 from './FFI3.jpg';
+import CarBG from './carbg.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDhl } from '@fortawesome/free-brands-svg-icons';
+import { faBolt } from '@fortawesome/free-solid-svg-icons'
+
+
+
+
+
 
 
 
@@ -561,6 +572,24 @@ const imageJR = [
  ];
 
 
+  const imageFF = [
+  {
+    original: FFI,
+    thumbnail: FFI,
+  },
+
+   {
+    original: FFI2,
+    thumbnail: FFI2,
+  },
+
+   {
+    original: FFI3,
+    thumbnail: FFI3,
+  },
+ ];
+
+
 
 function Car() {
  const  [truckDropDown, setTruckDropDown] = useState(false)
@@ -688,7 +717,10 @@ function chooseImage () {
        <ImageGallery items={imageCE} /></div>)
       } else if (selectedPopUp === "scf") {
         return(<div className="img-gallery">
-       <ImageGallery items={imageCE} /></div>)
+       <ImageGallery items={imageFF} /></div>)
+      } else if (selectedPopUp === "scff") {
+        return(<div className="img-gallery">
+       <ImageGallery items={imageFF} /></div>)
 
 
 
@@ -700,7 +732,16 @@ function chooseImage () {
 
   const truckMenu = () => {
   return (<div><h1>Truck list - Ford F-150 Raptor</h1><img onClick={(e)=>handleShowPopUp(e)} id="ford" src ={Truck1}className="ford"/>
+  <div className="row1 col4 cspan6">
+  <h5>info!</h5>
+  <p1><h3></h3>7 miles 20/27 mpg City/Hwy</p1>
+  <p1><FontAwesomeIcon  color="black" icon={faBolt}/> Opulent Amber Exterior</p1>
+  <button className="button">Buy now!</button>
+  </div>
+
+
   <h1>Truck list - Toyota Tacoma</h1><img onClick={(e)=>handleShowPopUp(e)} id="toyota_truck" src ={Truck2}className="toyota_truck"/>
+
   <h1>Truck list -  Dodge Cummins 2500/3500</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge" src ={Truck3}className="dodge"/>
   <h1>Truck list -  1st Gen Dodge Cummins</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge2" src ={Truck4}className="dodge2"/>
   <h1>Truck list -  Ram 1500 EcoDiesel</h1><img onClick={(e)=>handleShowPopUp(e)} id="ram" src ={Truck5}className="ram"/></div>)

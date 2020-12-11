@@ -9,7 +9,7 @@ import Car from './components/car';
 import Contact from './components/contact';
 import Search from './components/search';
 import Information from './components/information';
-import Location from './components/information';
+import Location from './components/location';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './image-gallery.css';
 
@@ -18,7 +18,7 @@ function App() {
   <Router>
       <Switch>
              <Route exact path="/">
-                {create_page(<Home />)}
+               {create_page(<Home />)}
              </Route>
 
              <Route path="/about">
@@ -37,12 +37,12 @@ function App() {
                 {create_page(<Search />)}
                 </Route>
 
-              <Route path="/location">
-                {create_page(<Location />)}
-                </Route>
-
               <Route path="/information">
                 {create_page(<Information />)}
+                </Route>
+
+              <Route path="/location">
+                {create_page(<Location />)}
                 </Route>
           </Switch>
       </Router>
