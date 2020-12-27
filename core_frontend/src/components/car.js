@@ -107,11 +107,18 @@ import CEI3 from './CEI3.jpg';
 import FFI from './FFI.jpg';
 import FFI2 from './FFI2.jpg';
 import FFI3 from './FFI3.jpg';
+import JI1 from './JI1.jpg';
+import JI2 from './JI2.jpg';
+import JI3 from './JI3.jpg';
+import F8I1 from './F8I1.jpg';
+import F8I2 from './f8I2.jpg';
+import F8I3 from './f8I3.jpg';
 import CarBG from './carbg.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDhl } from '@fortawesome/free-brands-svg-icons';
-import { faBolt } from '@fortawesome/free-solid-svg-icons'
-
+import { faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faInfo } from '@fortawesome/free-solid-svg-icons';
+import { faMoneyBillWaveAlt } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -589,6 +596,40 @@ const imageJR = [
   },
  ];
 
+ const imageJI = [
+  {
+    original: JI1,
+    thumbnail: JI1,
+  },
+
+   {
+    original: JI2,
+    thumbnail: JI2,
+  },
+
+   {
+    original: JI3,
+    thumbnail: JI3,
+  },
+ ];
+
+   const imageF8 = [
+  {
+    original: F8I1,
+    thumbnail: F8I1,
+  },
+
+   {
+    original: F8I2,
+    thumbnail: F8I2,
+  },
+
+   {
+    original: F8I3,
+    thumbnail: F8I3,
+  },
+ ];
+
 
 
 function Car() {
@@ -720,10 +761,13 @@ function chooseImage () {
        <ImageGallery items={imageFF} /></div>)
       } else if (selectedPopUp === "scff") {
         return(<div className="img-gallery">
-       <ImageGallery items={imageFF} /></div>)
-
-
-
+       <ImageGallery items={imageJI} /></div>)
+      } else if (selectedPopUp === "sct") {
+        return(<div className="img-gallery">
+       <ImageGallery items={imageF8} /></div>)
+      } else if (selectedPopUp === "scp") {
+        return(<div className="img-gallery">
+       <ImageGallery items={imageF8} /></div>)
 
 
 }
@@ -732,15 +776,45 @@ function chooseImage () {
 
   const truckMenu = () => {
   return (<div><h1>Truck list - Ford F-150 Raptor</h1><img onClick={(e)=>handleShowPopUp(e)} id="ford" src ={Truck1}className="ford"/>
-  <div className="row1 col4 cspan6">
-  <h5>info!</h5>
-  <p1><h3></h3>7 miles 20/27 mpg City/Hwy</p1>
-  <p1><FontAwesomeIcon  color="black" icon={faBolt}/> Opulent Amber Exterior</p1>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Cement Interior6 speed manual 4x4 Stock #: DT21456</p2>
+  </div>
+  <div className="row2 col4 cspan6">
   <button className="button">Buy now!</button>
   </div>
-
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $36,132</p1>
+  <p1>Exclusive Auto Sale Price $35,132</p1>
+  </div>
+  </div>
 
   <h1>Truck list - Toyota Tacoma</h1><img onClick={(e)=>handleShowPopUp(e)} id="toyota_truck" src ={Truck2}className="toyota_truck"/>
+  <div className="grid">
+  <div className="row1 col4 cspan6">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row2 col4 cspan3">
+  <p1>10 miles
+  17/21 mpg City/Hwy
+  Magnetic Gray Exterior</p1>
+  </div>
+  <div className="row2 col7 cspan3">
+  <p1>Cement Interior6 speed manual 4x4 Stock #: DT21456</p1>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  </div>
 
   <h1>Truck list -  Dodge Cummins 2500/3500</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge" src ={Truck3}className="dodge"/>
   <h1>Truck list -  1st Gen Dodge Cummins</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge2" src ={Truck4}className="dodge2"/>
