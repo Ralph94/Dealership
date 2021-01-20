@@ -800,65 +800,719 @@ function chooseImage () {
 
   <h1>Truck list - Toyota Tacoma</h1><img onClick={(e)=>handleShowPopUp(e)} id="toyota_truck" src ={Truck2}className="toyota_truck"/>
   <div className="grid">
-  <div className="row1 col4 cspan6">
+  <div className="row1 col2 cspan7">
   <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
   </div>
-  <div className="row2 col4 cspan3">
-  <p1>10 miles
-  17/21 mpg City/Hwy
-  Magnetic Gray Exterior</p1>
+  <div className="row3 col4 cspan3">
+  <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
   </div>
-  <div className="row2 col7 cspan3">
-  <p1>Cement Interior6 speed manual 4x4 Stock #: DT21456</p1>
+  <div className="row4 col4 cspan3">
+  <p2>Cement Interior6 speed manual 4x4 Stock #: DT21456</p2>
   </div>
   <div className="row2 col4 cspan6">
   <button className="button">Buy now!</button>
   </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $36,132</p1>
+  <p1>Exclusive Auto Sale Price $35,132</p1>
+  </div>
   </div>
 
   <h1>Truck list -  Dodge Cummins 2500/3500</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge" src ={Truck3}className="dodge"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Cement Interior6 speed manual 4x4 Stock #: DT21456</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $36,132</p1>
+  <p1>Exclusive Auto Sale Price $35,132</p1>
+  </div>
+  </div>
   <h1>Truck list -  1st Gen Dodge Cummins</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge2" src ={Truck4}className="dodge2"/>
-  <h1>Truck list -  Ram 1500 EcoDiesel</h1><img onClick={(e)=>handleShowPopUp(e)} id="ram" src ={Truck5}className="ram"/></div>)
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Cement Interior6 speed manual 4x4 Stock #: DT21456</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $36,132</p1>
+  <p1>Exclusive Auto Sale Price $35,132</p1>
+  </div>
+  </div>
+  <h1>Truck list -  Ram 1500 EcoDiesel</h1><img onClick={(e)=>handleShowPopUp(e)} id="ram" src ={Truck5}className="ram"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Cement Interior6 speed manual 4x4 Stock #: DT21456</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $36,132</p1>
+
+  <p1>Exclusive Auto Sale Price $35,132</p1>
+  </div>
+  </div>
+  </div>)
 
 }
 const jeepMenu = () => {
   return (<div><h1>Jeep list - Jeep Compass 2018</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepc" src ={Jeep1}className="jeepc"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>34,052 miles
+  White Clearcoat Exterior
+  9 Speed Automatic
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>4WD Stock #: TBCE1413C4NJDCB8KT825457</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $23,256</p1>
+  <p1>Exclusive Auto Sale Price $21,294</p1>
+  </div>
+  </div>
+
+
   <h1>Jeep list - V8-Powered Jeep Wrangler Rubicon 392</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepr" src ={Jeep2}className="jeepr"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>24,013 miles
+  Billet Silver Metallic Exterior
+  5 Speed Automatic
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>4WD Stock #: TBCE1261C4HJWEG1JL918266</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $39,956</p1>
+  <p1>Exclusive Auto Sale Price $29,499</p1>
+  </div>
+  </div>
+
   <h1>Jeep list - 2020 Jeep Wrangler Rubicon Unlimited EcoDiesel</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepw" src ={Jeep3}className="jeepw"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>24,013 miles
+  Billet Silver Metallic Exterior
+  5 Speed Automatic
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>4WD Stock #: TBCE1261C4HJWEG1JL918266</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $39,956</p1>
+  <p1>Exclusive Auto Sale Price $29,499</p1>
+  </div>
+  </div>
+
   <h1>Jeep list - 2011 Jeep Liberty</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepl" src ={Jeep4}className="jeepl"/>
-  <h1>Jeep list - 2019 Jeep Wrangler Unlimited Sahara</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeeps" src ={Jeep5}className="jeeps"/></div>)
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>22,669 miles
+  Grey Pearlcoat Exterior
+  Automatic</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>4WD Stock #: TBCE1413C4NJDCB8KT825457</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $23,256</p1>
+  <p1>Exclusive Auto Sale Price $21,294</p1>
+  </div>
+  </div>
+
+  <h1>Jeep list - 2019 Jeep Wrangler Unlimited Sahara</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeeps" src ={Jeep5}className="jeeps"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>20,736 miles
+Billet Silver Metallic Exterior
+6 Speed Manual
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>4x4 Stock #: JDD3041C4HJXDG9JW177922</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $32,945</p1>
+  <p1>Exclusive Auto Sale Price $32,694</p1>
+  </div>
+  </div>
+  </div>)
 }
 
 const carMenu = () => {
   return (<div><h1>Sedan list - 2020 Toyota Camry Hybrid</h1><img onClick={(e)=>handleShowPopUp(e)} id="cart" src ={Car1}className="cart"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>91 miles
+   44/47 mpg City/Hwy
+   Super White Exterior
+   Ash Softex® Interior
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic Front-wheel Drive Stock #: DT202587</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $34,078</p1>
+  <p1>Exclusive Auto Sale Price $28,843</p1>
+  </div>
+  </div>
+
   <h1>Sedan list - 1997 Toyota Corolla</h1><img onClick={(e)=>handleShowPopUp(e)} id="carc" src ={Car2}className="carc"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>28 miles
+  32/41 mpg City/Hwy
+  Classic Silver Exterior
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Moonstone Fabric Interior automatic/CVT Front-wheel Drive Stock #: DT201791</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $23,944</p1>
+  <p1>Exclusive Auto Sale Price $22,554</p1>
+  </div>
+  </div>
+
   <h1>Sedan list - 2020 Toyota Camry TRD</h1><img onClick={(e)=>handleShowPopUp(e)} id="carr" src ={Car3}className="carr"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>10 miles
+  25/34 mpg City/Hwy
+  Midnight Black Exterior
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Black Fabric Interior 8 speed automatic All-wheel Drive Stock #: DT202571</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $29,038</p1>
+  <p1>Exclusive Auto Sale Price $25,367</p1>
+  </div>
+  </div>
+
   <h1>Sedan list - 2017 Ford Fusion Hybrid</h1><img onClick={(e)=>handleShowPopUp(e)} id="carff" src ={Car4}className="carff"/>
-  <h1>Sedan list - 2012 Ford Focus SE</h1><img onClick={(e)=>handleShowPopUp(e)} id="fordff" src ={Car5}className="fordff"/></div>)
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>78,307 miles Oxford White Exterior 6</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>FWD Stock #: DT201717D3FA6P0HD8GR341515</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $24,028</p1>
+  <p1>Exclusive Auto Sale Price $20,125</p1>
+  </div>
+  </div>
+
+  <h1>Sedan list - 2012 Ford Focus SE</h1><img onClick={(e)=>handleShowPopUp(e)} id="fordff" src ={Car5}className="fordff"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>91 miles
+   44/47 mpg City/Hwy
+   Super White Exterior
+   Ash Softex® Interior
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>FWD Stock #: DT201717D3FA6P0HD8GR341515</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $11,278</p1>
+  <p1>Exclusive Auto Sale Price $8,800</p1>
+  </div>
+  </div>
+  </div>)
 }
 
 const suvMenu = () => {
   return (<div><h1>Suv list - 2020 Honda CRV</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvv" src ={Suv1}className="suvv"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>31 miles
+   33/37 mpg City/Hwy
+   Black Softex® Interior
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>AWD Stock #: DT402718D3FA9P0HD8GR351585</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $22,078</p1>
+  <p1>Exclusive Auto Sale Price $19,400</p1>
+  </div>
+  </div>
+
+
   <h1>Suv list - 2019 Honda CRV</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvh" src ={Suv2}className="suvh"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>31,478 miles Modern Steel Metallic Exterior CVT
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>AWD Stock #: DT21574A3CZRU6H5XJG711940</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $23,600</p1>
+  <p1>Exclusive Auto Sale Price $18,100</p1>
+  </div>
+  </div>
+
   <h1>Suv list -2020 Subaru Outback</h1><img onClick={(e)=>handleShowPopUp(e)} id="suva" src ={Suv3}className="suva"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>20,478 miles Modern Steel White Metallic Exterior
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>AWD Stock #: DT11674F3CZAU4H5XJG714950</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $33,600</p1>
+  <p1>Exclusive Auto Sale Price $28,500</p1>
+  </div>
+  </div>
+
   <h1>Suv list - 2020 Subaru Forester</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvf" src ={Suv4}className="suvf"/>
-  <h1>Suv list - 2021 Subaru Accent</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvo" src ={Suv5}className="suvo"/></div>)
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>24,850 miles Silver Exterior Automatic
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>AWD Stock #: DT21300A4S4BSAAC9J3263584</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $23,600</p1>
+  <p1>Exclusive Auto Sale Price $18,100</p1>
+  </div>
+  </div>
+
+  <h1>Suv list - 2021 Subaru Accent</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvo" src ={Suv5}className="suvo"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>11,328 miles Gray Exterior Automatic
+  </p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>AWD Stock #: DT202131A4S4WMACD3L3432342</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $33,250</p1>
+  <p1>Exclusive Auto Sale Price $28,200</p1>
+  </div>
+  </div>
+  </div>)
 }
 
 const vanMenu = () => {
   return (<div><h1>Van list - 2020 Lexus MiniVan</h1><img onClick={(e)=>handleShowPopUp(e)} id="vans" src ={Van1}className="vans"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 19/26 mpg City/Hwy Midnight Black Exterior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>Ash Fabric Interior 8 speed automatic Front-wheel Drive Stock #: DT201995</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $53,600</p1>
+  <p1>Exclusive Auto Sale Price 45,520</p1>
+  </div>
+  </div>
+
   <h1>Van list - 2006 Ford Transit Van</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanss" src ={Van2}className="vanss"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>35/36 mpg City/Hwy Ruby Flare Pearl Exterior Graphite Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21760</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $25,100</p1>
+  <p1>Exclusive Auto Sale Price $22,405</p1>
+  </div>
+  </div>
+
   <h1>Van list - 2007 Ford MiniVan</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanc" src ={Van3}className="vanc"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Sunset Bronze Mica Exterior Chateau Softex Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21877</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $43,260</p1>
+  <p1>Exclusive Auto Sale Price $40,120</p1>
+  </div>
+  </div>
+
   <h1>Van list - 2020 Ford Van Eco</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanf" src ={Van4}className="vanf"/>
-  <h1>Van list - 2002 Chevrolet Express Van</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanb" src ={Van5}className="vanb"/></div>)
+   <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>8 miles 35/36 mpg City/Hwy Predawn Gray Mica Exterior Graphite Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>Original Price $33,600</p1>
+  <p1>Exclusive Auto Sale Price $28,500</p1>
+  </div>
+  </div>
+
+  <h1>Van list - 2002 Chevrolet Express Van</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanb" src ={Van5}className="vanb"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $38,810</p1>
+  <p1>Exclusive Auto Sale Price $35,332</p1>
+  </div>
+  </div>
+  < /div>)
 }
 
 const scarMenu = () => {
   return (<div><h1>Sports car list - 2021 Ferrari F8 Topless</h1><img onClick={(e)=>handleShowPopUp(e)} id="scf" src ={SC1}className="scf"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Gold Exterior Moonstone and Yellow Flannel Softex® Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT33874</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $45,820</p1>
+  <p1>Exclusive Auto Sale Price $42,532</p1>
+  </div>
+  </div>
+
   <h1>Sports car list - 2021 Ferrari J50</h1><img onClick={(e)=>handleShowPopUp(e)} id="scff" src ={SC2}className="scff"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Midnight Blue Exterior Moonstone and Yellow Flannel Softex® Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT43874</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $39,210</p1>
+  <p1>Exclusive Auto Sale Price $36,132</p1>
+  </div>
+  </div>
   <h1>Sports car list - 2020 Ferrari F8 Tributo</h1><img onClick={(e)=>handleShowPopUp(e)} id="sct" src ={SC3}className="sct"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $38,810</p1>
+  <p1>Exclusive Auto Sale Price $35,332</p1>
+  </div>
+  </div>
   <h1>Sports car list - 1999 Ferrari Porchse</h1><img onClick={(e)=>handleShowPopUp(e)} id="scp" src ={SC4}className="scp"/>
-  <h1>Sports car list - 2019 Ferrari 250 GTO</h1><img onClick={(e)=>handleShowPopUp(e)} id="scc" src ={SC5}className="scc"/></div>)
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $38,810</p1>
+  <p1>Exclusive Auto Sale Price $35,332</p1>
+  </div>
+  </div>
+  <h1>Sports car list - 2019 Ferrari 250 GTO</h1><img onClick={(e)=>handleShowPopUp(e)} id="scc" src ={SC5}className="scc"/>
+  <div className="grid">
+  <div className="row1 col2 cspan7">
+  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  </div>
+  <div className="row3 col4 cspan3">
+  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  </div>
+  <div className="row4 col4 cspan3">
+  <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
+  </div>
+  <div className="row2 col4 cspan6">
+  <button className="button">Buy now!</button>
+  </div>
+  <div className="row1 col4 cspan9">
+  <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
+  </div>
+  <div className="row3 col7 cspan3">
+  <p1>MSRP $38,810</p1>
+  <p1>Exclusive Auto Sale Price $35,332</p1>
+  </div>
+  </div>
+  </div>)
 }
 
 function handleOnClick (e) {

@@ -10,7 +10,7 @@ import AD3 from './tech.jpg'
 function Information() {
   return (
   <div className="information">
-  <div className="row1 col4 cspan12 center">
+  <div className="row1 col4 cspan12">
   <h1>Information page!</h1>
    <h2>Services we offer!</h2>
   </div>
