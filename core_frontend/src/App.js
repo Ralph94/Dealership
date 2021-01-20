@@ -60,9 +60,7 @@ function create_page(page) {
       <div class = "page">
         {page}
       </div>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>)
   }
 

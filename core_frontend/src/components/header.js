@@ -16,7 +16,7 @@ import Logo from './logo.png'
 function Header() {
   return (
     <div>
-      <header className="header">
+      <div className="header">
         <div className = "col1 logo-container">
         <Link to="/"><img src = {Logo} className ="logo"/></Link>
         </div>
@@ -34,7 +34,7 @@ function Header() {
         <FontAwesomeIcon  color="red"  icon={faInstagram}/>
       </div>
 
-      </header>
+      </div>
     </div>
 
    );
