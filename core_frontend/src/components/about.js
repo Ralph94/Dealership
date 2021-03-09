@@ -15,15 +15,15 @@ function About() {
     </div>
 
 
-    <div className="row3 col4 cspan3">
-    <h3>Welcome to the Exclusive Auto Sales</h3>
+    <div className="row3 col3 cspan3 block-container">
+    <h2>Welcome to Exclusive Auto Sales</h2>
     <p> of Reno, Nv website, a fast and convenient way to research and find a vehicle that is right for you.
      Whether you are looking for a new or used car, truck, or SUV you will find it here. We have helped many customrs all around to find there car of their dreams!</p>
     </div>
 
 
 
-     <div className="row4 col4 cspan3">
+     <div className="row4 col3 cspan3 block-container">
           <h2>Our History</h2>
           <p>Exclusive Auto Sales has been serving the Reno area since 2005. Our mission has always been to provide our friends and neighbors in the Reno, Nevada area with the exceptional shopping experience that they deserve.
           We have a huge selection of used vehicles from all kinds of brands, a knowledgeable team, and multiple financing options.</p>
@@ -31,13 +31,16 @@ function About() {
 
 
 
-      <div className="row3 rspan2 col7 cspan3 dreamcar">
+      <div className="row3 rspan2 col7 cspan4 dreamcar">
         <img src={Dreamcar} className="dreamcar-img"/>
        </div>
+
 
        <div className= "row5 col1 cspan12 spacer">
        <dic className="spacer"/>
        </div>
+
+
     </div>
 
 

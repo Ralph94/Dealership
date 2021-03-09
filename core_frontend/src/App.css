@@ -1,8 +1,12 @@
+html {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 .App {
   text-align: center;
   background-color: white;
-
 }
 
 
@@ -571,80 +575,9 @@ background-position: center;
 background-attachment: fixed;
 background-size: 100%;
 max-width: 100%;
-height: 200vh;
+max-height: 240vh;
 grid-template-columns: repeat(12, calc(100% / 12));
 grid-template-rows: auto;
-
-}
-
-.about h3 {
-display: inline-block;
-background-color: white;
-border-radius: 10px;
-border-color: bold;
-border-style: solid;
-border-size: 2px;
-text-align: top;
-margin-top: auto;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: -240px;
-width: 310px;
-height: 300px;
-padding: auto;
-}
-
- .about p {
-display: inline-block;
-background-color: white;
-color: black;
-border-radius: 10px;
-border-color: bold;
-border-style: transparent;
-border-size: 2px;
-text-align: center;
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: auto;
-padding-top: -100px;
-width: 300px;
-height: auto;
-
-
-}
-
-.about h2 {
-display: inline-block;
-background-color: white;
-border-radius: 10px;
-border-color: bold;
-border-style: solid;
-border-size: 2px;
-text-align: top;
-margin-top: auto;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: -250px;
-width: 310px;
-height: 300px;
-padding: auto;
-/*
-background-color: white;
-color: black;
-border-radius: 10px;
-border-color: bold;
-border-style: solid;
-border-size: 2px;
-margin-top: 20px;
-margin-left: 0px;
-margin-right: 0px;
-margin-bottom: -260px;
-width: calc(100% - 9px);
-height: calc(100% - 30px);
-text-align: center;
-*/
-
 
 }
 
@@ -655,6 +588,46 @@ color: #c2e9fb;
 
 }
 
+.about h2 {
+text-align: center;
+margin-top: -10px;
+
+
+}
+
+.about h3 {
+text-align: center;
+
+
+}
+
+ .about p {
+color: black;
+text-align: center;
+font-size: 16px
+
+}
+.about .block-container{
+    min-width: 200px;
+    height: 310px;
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2%;
+    padding-bottom: -20px;
+
+}
+
+.about .row4.col3.cspan3.block-container{
+    min-width: 200px;
+    height: 310px;
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 20px;
+
+}
 
 
 .about .AU {
@@ -664,48 +637,58 @@ margin-left: auto;
 margin-right: auto;
 width: 100%;
 
-
-}
-
-.about .dreamcar {
-text-align: center;
-height: 100%;
-width: calc(100% - 5px);
-margin-left: 5px;
-margin-bottom: 0px;
-padding: 0px
-
 }
 
 .about .dreamcar-img {
-height: 730px;
-width: 500px;
-margin-left: 5px;
-border-size: 2px;
-border-style: solid black;
+height: 104vh;
+width: calc(100% - 4px);
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
 border-radius: 10px;
 margin: 0;
 padding: 0;
-
-/*
-  height: calc(100% - 4px);
-  width: calc(100% - 4px);
-  margin-left: 5px;
-  border-size: 2px;
-  border-style: solid black;
-  border-radius: 10px;
-  margin: 0;
-  padding: 0;
-*/
+object-fit: cover;
 
 }
 
 .spacer{
-  min-height: 150px;
+  min-height: 30vh;
   width: 100vw;
-max-width: 100%;
+  max-width: 100%;
   border-radius: 5px;
+  padding-bottom: -50px;
 }
+
+@media (min-width: 600px) {
+    .about{
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 100%;
+       max-height: 260vh;
+
+
+    }
+}
+
+
+@media (min-width: 600px) {
+    .about .block-container{
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 2%;
+       padding-top: -50px;
+
+
+
+    }
+}
+
+
+
+
 
 /*
 Car
@@ -719,7 +702,7 @@ Car
   background-attachment: fixed;
   background-size: 100%;
   width: 100vw;
-max-width: 100%;
+  max-width: 100%;
   min-height: 100vh;
   grid-template-columns: repeat(12, calc(100% / 10));
   grid-template-rows: auto;
@@ -1006,13 +989,33 @@ button {
   cursor: pointer;
 }
 
-.image-gallery-thumbnails .image-gallery-thumbnails-container {
-  max-height: 250px;
+div.row5.col1.cspan12.spacer {
+ max-height: 250px;
+
 }
 
-.car .image-gallery-thumbnails .image-gallery-thumbnails-container {
-  max-height: 250px;
+
+
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+      max-height: 170px;
+      margin-top: -65px;
+      margin-bottom: auto;
+      margin-right: 0px;
+      margin-left: 0px;
 }
+
+.image-gallery-thumbnails .image-gallery-thumbnails-image {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 0px;
+      margin-left: 0px;
+
+
+}
+
+
+
+
 
 .car_lot{
   height: 280px;
@@ -1075,6 +1078,11 @@ Footer
   to {
     transform: rotate(360deg);
   }
+}
+
+.row4.col4.cspan3 {
+max-height: 250px;
+
 }
 
 
@@ -1585,7 +1593,7 @@ Home
   background-size: 100%;
   position: fixed;
   width: 100vw;
-max-width: 100%;
+  max-width: 100%;
   position: static;
   background-attachment: fixed;
 
@@ -1595,7 +1603,7 @@ max-width: 100%;
 .intro-container {
 
   width: 100vw;
-max-width: 100%;
+  max-width: 100%;
   height: calc(100vh - 123px);
   padding: 0px;
   display: flex;
