@@ -23,7 +23,7 @@ function Header() {
 
       <div className="col2 menu">
         <Link to="/about"><h3><FontAwesomeIcon icon={faCheck}color="red"/> About</h3></Link>
-        <Link to="/car"><h4><FontAwesomeIcon icon={faCarSide} color="red"/> Cars For Sale</h4></Link>
+        <Link to="/car"><h3 className="car-nav"><FontAwesomeIcon icon={faCarSide} color="red"/>Vehicles</h3></Link>
         <Link to="/contact"><h3><FontAwesomeIcon icon={faAddressCard} color="red"/> Contact</h3></Link>
         <Link to="/search"><h3><FontAwesomeIcon icon={faArrowUp} color="red"/> Search</h3></Link>
     </div>
