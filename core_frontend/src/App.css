@@ -764,7 +764,7 @@ Car
 	border: 3px transparent;
 	font-family: sans-serif;
 	color: white;
-	font-size: 1.1rem;
+	font-size: 3vh;
 	position: relative;
 	transition: all 0.5s;
 	margin-top: auto;
@@ -806,6 +806,40 @@ Car
 	margin-right: auto;
 	width: calc(50%);
 	height: calc(90%);
+}
+
+p1.p1-index {
+	display: block;
+	background: transparent;
+	border: 3px solid;
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.1rem;
+	position: relative;
+	transition: all 0.5s;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(50%);
+	height: calc(100%);
+}
+
+p1.p1-index-2 {
+	display: block;
+	background: transparent;
+	border: 3px solid;
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.1rem;
+	position: relative;
+	transition: all 0.5s;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(50%);
+	height: calc(50%);
 }
 
 .car p2 {

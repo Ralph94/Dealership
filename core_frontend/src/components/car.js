@@ -778,7 +778,7 @@ function chooseImage () {
   return (<div><h1>Truck list - Ford F-150 Raptor</h1><img onClick={(e)=>handleShowPopUp(e)} id="ford" src ={Truck1}className="ford"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
@@ -801,7 +801,7 @@ function chooseImage () {
   <h1>Truck list - Toyota Tacoma</h1><img onClick={(e)=>handleShowPopUp(e)} id="toyota_truck" src ={Truck2}className="toyota_truck"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
@@ -824,7 +824,7 @@ function chooseImage () {
   <h1>Truck list -  Dodge Cummins 2500/3500</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge" src ={Truck3}className="dodge"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
@@ -846,7 +846,7 @@ function chooseImage () {
   <h1>Truck list -  1st Gen Dodge Cummins</h1><img onClick={(e)=>handleShowPopUp(e)} id="dodge2" src ={Truck4}className="dodge2"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
@@ -868,7 +868,7 @@ function chooseImage () {
   <h1>Truck list -  Ram 1500 EcoDiesel</h1><img onClick={(e)=>handleShowPopUp(e)} id="ram" src ={Truck5}className="ram"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>10 miles 17/21 mpg City/Hwy Magnetic Gray Exterior</p1>
@@ -895,7 +895,7 @@ const jeepMenu = () => {
   return (<div><h1>Jeep list - Jeep Compass 2018</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepc" src ={Jeep1}className="jeepc"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>34,052 miles
@@ -922,7 +922,7 @@ const jeepMenu = () => {
   <h1>Jeep list - V8-Powered Jeep Wrangler Rubicon 392</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepr" src ={Jeep2}className="jeepr"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>24,013 miles
@@ -948,7 +948,7 @@ const jeepMenu = () => {
   <h1>Jeep list - 2020 Jeep Wrangler Rubicon Unlimited EcoDiesel</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepw" src ={Jeep3}className="jeepw"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>24,013 miles
@@ -974,7 +974,7 @@ const jeepMenu = () => {
   <h1>Jeep list - 2011 Jeep Liberty</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeepl" src ={Jeep4}className="jeepl"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>22,669 miles
@@ -999,7 +999,7 @@ const jeepMenu = () => {
   <h1>Jeep list - 2019 Jeep Wrangler Unlimited Sahara</h1><img onClick={(e)=>handleShowPopUp(e)} id="jeeps" src ={Jeep5}className="jeeps"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>20,736 miles
@@ -1028,7 +1028,7 @@ const carMenu = () => {
   return (<div><h1>Sedan list - 2020 Toyota Camry Hybrid</h1><img onClick={(e)=>handleShowPopUp(e)} id="cart" src ={Car1}className="cart"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>91 miles
@@ -1055,7 +1055,7 @@ const carMenu = () => {
   <h1>Sedan list - 1997 Toyota Corolla</h1><img onClick={(e)=>handleShowPopUp(e)} id="carc" src ={Car2}className="carc"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>28 miles
@@ -1081,7 +1081,7 @@ const carMenu = () => {
   <h1>Sedan list - 2020 Toyota Camry TRD</h1><img onClick={(e)=>handleShowPopUp(e)} id="carr" src ={Car3}className="carr"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>10 miles
@@ -1107,7 +1107,7 @@ const carMenu = () => {
   <h1>Sedan list - 2017 Ford Fusion Hybrid</h1><img onClick={(e)=>handleShowPopUp(e)} id="carff" src ={Car4}className="carff"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>78,307 miles Oxford White Exterior 6</p1>
@@ -1130,7 +1130,7 @@ const carMenu = () => {
   <h1>Sedan list - 2012 Ford Focus SE</h1><img onClick={(e)=>handleShowPopUp(e)} id="fordff" src ={Car5}className="fordff"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>91 miles
@@ -1160,7 +1160,7 @@ const suvMenu = () => {
   return (<div><h1>Suv list - 2020 Honda CRV</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvv" src ={Suv1}className="suvv"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>31 miles
@@ -1187,7 +1187,7 @@ const suvMenu = () => {
   <h1>Suv list - 2019 Honda CRV</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvh" src ={Suv2}className="suvh"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>31,478 miles Modern Steel Metallic Exterior CVT
@@ -1211,7 +1211,7 @@ const suvMenu = () => {
   <h1>Suv list -2020 Subaru Outback</h1><img onClick={(e)=>handleShowPopUp(e)} id="suva" src ={Suv3}className="suva"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>20,478 miles Modern Steel White Metallic Exterior
@@ -1235,7 +1235,7 @@ const suvMenu = () => {
   <h1>Suv list - 2020 Subaru Forester</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvf" src ={Suv4}className="suvf"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>24,850 miles Silver Exterior Automatic
@@ -1259,7 +1259,7 @@ const suvMenu = () => {
   <h1>Suv list - 2021 Subaru Accent</h1><img onClick={(e)=>handleShowPopUp(e)} id="suvo" src ={Suv5}className="suvo"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>11,328 miles Gray Exterior Automatic
@@ -1286,7 +1286,7 @@ const vanMenu = () => {
   return (<div><h1>Van list - 2020 Lexus MiniVan</h1><img onClick={(e)=>handleShowPopUp(e)} id="vans" src ={Van1}className="vans"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>7 miles 19/26 mpg City/Hwy Midnight Black Exterior</p1>
@@ -1309,7 +1309,7 @@ const vanMenu = () => {
   <h1>Van list - 2006 Ford Transit Van</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanss" src ={Van2}className="vanss"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>35/36 mpg City/Hwy Ruby Flare Pearl Exterior Graphite Interior</p1>
@@ -1332,7 +1332,7 @@ const vanMenu = () => {
   <h1>Van list - 2007 Ford MiniVan</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanc" src ={Van3}className="vanc"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>7 miles 35/36 mpg City/Hwy Sunset Bronze Mica Exterior Chateau Softex Interior</p1>
@@ -1355,7 +1355,7 @@ const vanMenu = () => {
   <h1>Van list - 2020 Ford Van Eco</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanf" src ={Van4}className="vanf"/>
    <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>8 miles 35/36 mpg City/Hwy Predawn Gray Mica Exterior Graphite Interior</p1>
@@ -1378,7 +1378,7 @@ const vanMenu = () => {
   <h1>Van list - 2002 Chevrolet Express Van</h1><img onClick={(e)=>handleShowPopUp(e)} id="vanb" src ={Van5}className="vanb"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
   <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
@@ -1404,10 +1404,10 @@ const scarMenu = () => {
   return (<div><h1>Sports car list - 2021 Ferrari F8 Topless</h1><img onClick={(e)=>handleShowPopUp(e)} id="scf" src ={SC1}className="scf"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
-  <p1>7 miles 35/36 mpg City/Hwy Gold Exterior Moonstone and Yellow Flannel Softex® Interior</p1>
+  <p1 class="p1-index">7 miles 35/36 mpg City/Hwy Gold Exterior Moonstone and Yellow Flannel Softex® Interior</p1>
   </div>
   <div className="row4 col4 cspan3">
   <p2>continuously variable automatic All-wheel Drive Stock #: DT33874</p2>
@@ -1419,18 +1419,18 @@ const scarMenu = () => {
   <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
   </div>
   <div className="row3 col7 cspan3">
-  <p1>MSRP $45,820</p1>
-  <p1>Exclusive Auto Sale Price $42,532</p1>
+  <p1 class="p1-index-2">MSRP $45,820</p1>
+  <p1 class="p1-index-2">Exclusive Auto Sale Price $42,532</p1>
   </div>
   </div>
 
   <h1>Sports car list - 2021 Ferrari J50</h1><img onClick={(e)=>handleShowPopUp(e)} id="scff" src ={SC2}className="scff"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
-  <p1>7 miles 35/36 mpg City/Hwy Midnight Blue Exterior Moonstone and Yellow Flannel Softex® Interior</p1>
+  <p1 class="p1-index">7 miles 35/36 mpg City/Hwy Midnight Blue Exterior Moonstone and Yellow Flannel Softex® Interior</p1>
   </div>
   <div className="row4 col4 cspan3">
   <p2>continuously variable automatic All-wheel Drive Stock #: DT43874</p2>
@@ -1442,17 +1442,17 @@ const scarMenu = () => {
   <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
   </div>
   <div className="row3 col7 cspan3">
-  <p1>MSRP $39,210</p1>
-  <p1>Exclusive Auto Sale Price $36,132</p1>
+  <p1 class="p1-index-2">MSRP $39,210</p1>
+  <p1 class="p1-index-2">Exclusive Auto Sale Price $36,132</p1>
   </div>
   </div>
   <h1>Sports car list - 2020 Ferrari F8 Tributo</h1><img onClick={(e)=>handleShowPopUp(e)} id="sct" src ={SC3}className="sct"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
-  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  <p1 class="p1-index">7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
   </div>
   <div className="row4 col4 cspan3">
   <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
@@ -1464,17 +1464,17 @@ const scarMenu = () => {
   <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
   </div>
   <div className="row3 col7 cspan3">
-  <p1>MSRP $38,810</p1>
-  <p1>Exclusive Auto Sale Price $35,332</p1>
+  <p1 class="p1-index-2">MSRP $38,810</p1>
+  <p1 class="p1-index-2">Exclusive Auto Sale Price $35,332</p1>
   </div>
   </div>
   <h1>Sports car list - 1999 Ferrari Porchse</h1><img onClick={(e)=>handleShowPopUp(e)} id="scp" src ={SC4}className="scp"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
-  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  <p1 class="p1-index">7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
   </div>
   <div className="row4 col4 cspan3">
   <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
@@ -1486,17 +1486,17 @@ const scarMenu = () => {
   <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
   </div>
   <div className="row3 col7 cspan3">
-  <p1>MSRP $38,810</p1>
-  <p1>Exclusive Auto Sale Price $35,332</p1>
+  <p1 class="p1-index-2">MSRP $38,810</p1>
+  <p1 class="p1-index-2">Exclusive Auto Sale Price $35,332</p1>
   </div>
   </div>
   <h1>Sports car list - 2019 Ferrari 250 GTO</h1><img onClick={(e)=>handleShowPopUp(e)} id="scc" src ={SC5}className="scc"/>
   <div className="grid">
   <div className="row1 col2 cspan7">
-  <h5><FontAwesomeIcon  color="black" icon={faInfo}/>nfo</h5>
+  <h5>Info</h5>
   </div>
   <div className="row3 col4 cspan3">
-  <p1>7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
+  <p1 class="p1-index">7 miles 35/36 mpg City/Hwy Midnight Black Exterior Moonstone and Gray Flannel Softex® Interior</p1>
   </div>
   <div className="row4 col4 cspan3">
   <p2>continuously variable automatic All-wheel Drive Stock #: DT21875</p2>
@@ -1508,8 +1508,8 @@ const scarMenu = () => {
   <h6><FontAwesomeIcon  color="black" icon={faMoneyBillWaveAlt}/>Pricing</h6>
   </div>
   <div className="row3 col7 cspan3">
-  <p1>MSRP $38,810</p1>
-  <p1>Exclusive Auto Sale Price $35,332</p1>
+  <p1 class="p1-index-2">MSRP $38,810</p1>
+  <p1 class="p1-index-2">Exclusive Auto Sale Price $35,332</p1>
   </div>
   </div>
   </div>)
