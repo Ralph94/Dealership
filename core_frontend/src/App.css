@@ -491,7 +491,7 @@ Location
 .location h2 {
 	color: white;
 	font-size: 50px;
-	padding-top: 50px;
+	padding-top: -50px;
 }
 
 .location p {
@@ -525,7 +525,7 @@ Location
 #popup {
 	position: fixed;
 	top: -100px;
-	left: -350px;
+	left: -250px;
 	width: 50vw;
 	height: 50vh;
 	background: linear-gradient(
